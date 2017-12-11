@@ -10,15 +10,10 @@ p {
 .container {
     position: relative;
 }
-.wrap {
-    position: relative;
-    right: 0px;
-    align-content: right;
-    display: inline;
-}
 #image {
     max-width: 100%;
     height: auto;
+    align-content: center;
 }
 .active {
     background-color: #4CAF50;
@@ -37,9 +32,24 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 14px;
+    padding: 10px 15px;
     text-decoration: none;
 }
 li a:hover {
     background-color: #111;
+}
+#logo {
+    align-content: left;
+    left: 0px;
+    margin-top: 10px;
+    margin-inline-start: 20px;
+    margin-bottom: 10px;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+}
+#header-text {
+    position: relative;
+    align-content: right;
+    right: 0px;
 }
