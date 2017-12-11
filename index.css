@@ -16,6 +16,10 @@ p {
     align-content: right;
     display: inline;
 }
+#image {
+    max-width: 100%;
+    height: auto;
+}
 .active {
     background-color: #4CAF50;
 }
