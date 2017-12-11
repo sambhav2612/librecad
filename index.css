@@ -7,9 +7,6 @@ body {
 p {
     color: #000;
 }
-.website {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 .container {
     position: relative;
 }
@@ -25,7 +22,7 @@ p {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;;
+    padding: 0;
     overflow: hidden;
     background-color: #333;
 }
