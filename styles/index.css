@@ -17,27 +17,30 @@ p {
     height: auto;
     align-content: center;
 }
+.menu {
+    overflow: hidden;
+}
 .active {
     background-color: #4CAF50;
 }
-ul {
+.menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
 }
-li {
+.menu li {
     float: left;
 }
-li a {
+.menu li a {
     display: block;
     color: white;
     text-align: center;
     padding: 10px 12px;
     text-decoration: none;
 }
-li a:hover {
+.menu li a:hover {
     background-color: #111;
 }
 #logo {
