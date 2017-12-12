@@ -5,17 +5,22 @@ body {
     background-color: #FFF;
     max-width: 960px;
     margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 p {
     color: #000;
 }
 .container {
     position: relative;
+    margin: 10px;
 }
 #image {
     max-width: 100%;
     height: auto;
-    align-content: center;
+    align-content: right;
+    position: absolute;
+    right: 0px;
+    display: inline-block;    
 }
 .menu {
     overflow: hidden;
@@ -57,4 +62,22 @@ p {
     position: relative;
     align-content: right;
     right: 0px;
+}
+.topHeader {
+    position: relative;
+    background-color:  #f2f2ea 
+}
+.topHeader .topHeader-text {
+    position: absolute;
+    right: 0px;
+    align-content: right;
+    display: inline-block;
+    margin-top: 10px;
+    margin-inline-end: 20px;
+    height: auto; 
+}
+.footer {
+    align-content: center;
+    text-align: center;
+    display: block;
 }
