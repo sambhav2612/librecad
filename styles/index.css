@@ -3,6 +3,8 @@ h2 {
 } 
 body {
     background-color: #FFF;
+    max-width: 960px;
+    margin: auto;
 }
 p {
     color: #000;
@@ -32,7 +34,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 15px;
+    padding: 10px 12px;
     text-decoration: none;
 }
 li a:hover {
