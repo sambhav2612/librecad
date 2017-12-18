@@ -11,3 +11,7 @@ function myFunction() {
 function openHomepage() {
         window.open("https://sambhav2612.github.io/librecad/");
 }
+
+function openProfile() {
+    window.open("../profile.html");
+}

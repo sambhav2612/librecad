@@ -1,21 +1,3 @@
-.page {
-    text-align: center;
-    font-family: 'Cabin', 'Open Sans', sans-serif;
-}
-.page .footer {
-    max-width: 100%;
-} 
-.page404 {    
-    margin: auto;
-    font-size: 100pt;
-}
-.page404 .fa-smile {
-    color: #0088CC;
-}
-.page404p {
-    margin-bottom: 88pt;
-    font-size: 25pt;
-}
 h2 {
     color: green;
     font-family: 'Cabin', 'Open Sans', sans-serif;
@@ -30,6 +12,9 @@ p {
     color: #000;
     font-size: 12.5pt;
 }
+a {
+    text-decoration: none;
+} 
 .container {
     position: relative;
     margin: 10px;
@@ -128,82 +113,4 @@ p {
     right: 0px;
     color: #000;
     font-family: 'Cabin', sans-serif;    
-}
-.bottomHeader {
-    background: #000;
-    margin-top: 50pt;
-}
-.bottomHeader .footer {
-    max-width: 100%;
-}
-.footer p{
-    text-align: center;
-    color: #F5F5F5;
-    display: block;
-    margin: auto;
-    padding: 20px;
-}
-.github-corner:hover .octo-arm{
-    animation:octocat-wave 560ms ease-in-out
-}
-@keyframes octocat-wave{
-    0%,100%{
-        transform:rotate(0)
-    }20%,60%{
-        transform:rotate(-25deg)
-    }40%,80%{
-        transform:rotate(10deg)
-    }
-}
-@media (max-width:500px){
-    .github-corner:hover .octo-arm{
-        animation:none
-    }
-    .github-corner .octo-arm{
-        animation:octocat-wave 560ms ease-in-out
-    }
-}
-.fa-heart {
-    color: red
-}
-.fa-bug{
-    color: green;
-}
-.fa-github, .fa-font-awesome, .fa-code {
-    color: #FAFAFA;
-}
-.fa-telegram {
-    color: #0088CC;
-}
-.fa-facebook-square {
-    color: #3B5998
-}
-.fa-twitter-square {
-    color: #1DA1F2;
-}
-.fa-linkedin {
-    color: #0077B5;
-}
-#github-logo {
-    margin-bottom: -10px;
-    max-width: 8%;
-}
-.fa-star {
-    unicode-bidi: bidi-override;
-    direction: rtl;
-}
-.fa-star > span {
-    display: inline-block;
-    position: relative;
-    width: 1.1em;
-}
-.fa-star > span:hover,
-.fa-star > span:hover ~ span {
-  color: transparent;
-}
-.fa-star > span:hover:before, .fa-star > span:hover ~ span:before {
-   content: "\2605";
-   position: absolute;
-   left: 0;
-   color: gold;
 }
