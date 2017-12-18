@@ -169,7 +169,7 @@ p {
 .fa-bug{
     color: green;
 }
-.fa-github, .fa-font-awesome {
+.fa-github, .fa-font-awesome, .fa-code {
     color: #FAFAFA;
 }
 .fa-telegram {
@@ -183,6 +183,10 @@ p {
 }
 .fa-linkedin {
     color: #0077B5;
+}
+#github-logo {
+    margin-bottom: -10px;
+    max-width: 8%;
 }
 .fa-star {
     unicode-bidi: bidi-override;
