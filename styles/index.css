@@ -23,7 +23,7 @@ p {
     position: absolute;
     right: 0px;
     float: right;
-    display: inline-block;    
+    display: block;    
 }
 .menu {
     overflow: hidden;
@@ -148,7 +148,7 @@ p {
 .fa-bug{
     color: green;
 }
-.fa-github {
+.fa-github, .fa-font-awesome {
     color: #FAFAFA;
 }
 .fa-telegram {
@@ -162,4 +162,23 @@ p {
 }
 .fa-linkedin {
     color: #0077B5;
+}
+.fa-star {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+.fa-star > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+.fa-star > span:hover,
+.fa-star > span:hover ~ span {
+  color: transparent;
+}
+.fa-star > span:hover:before, .fa-star > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   left: 0;
+   color: gold;
 }
