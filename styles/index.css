@@ -49,6 +49,34 @@ p {
 .menu li a:hover {
     background-color: #111;
 }
+.menu .icon {
+    display: none;
+}
+ /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+ @media screen and (max-width: 600px) {
+    .menu li.a:not(:first-child) {display: none;}
+    .menu li.a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .menu.responsive {
+        position: relative;
+    }
+    .menu.responsive li.a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .menu.responsive li.a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  } 
 #logo {
     align-content: left;
     left: 0px;
@@ -79,8 +107,33 @@ p {
     color: #000;
     font-family: 'Cabin', sans-serif;    
 }
+.bottomHeader {
+    background: #000;
+    margin-top: 50pt;
+}
 .footer {
-    align-content: center;
     text-align: center;
-    display: block;
+    color: #ffffff;
+    margin: auto;
+    padding: 20px;
+}
+.github-corner:hover .octo-arm{
+    animation:octocat-wave 560ms ease-in-out
+}
+@keyframes octocat-wave{
+    0%,100%{
+        transform:rotate(0)
+    }20%,60%{
+        transform:rotate(-25deg)
+    }40%,80%{
+        transform:rotate(10deg)
+    }
+}
+@media (max-width:500px){
+    .github-corner:hover .octo-arm{
+        animation:none
+    }
+    .github-corner .octo-arm{
+        animation:octocat-wave 560ms ease-in-out
+    }
 }
