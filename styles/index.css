@@ -1,14 +1,16 @@
 h2 {
     color: green;
+    font-family: 'Cabin', 'Open Sans', sans-serif;
 } 
 body {
     background-color: #FFF;
-    max-width: 960px;
+    max-width: 1000px;
     margin: auto;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'Cabin', sans-serif;
 }
 p {
     color: #000;
+    font-size: 12.5pt;
 }
 .container {
     position: relative;
@@ -20,11 +22,12 @@ p {
     align-content: right;
     position: absolute;
     right: 0px;
+    float: right;
     display: inline-block;    
 }
 .menu {
     overflow: hidden;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Cabin', 'Open Sans', sans-serif;
 }
 .active {
     background-color: #4CAF50;
@@ -32,7 +35,7 @@ p {
 .menu ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: auto;
     overflow: hidden;
     background-color: #333;
 }
@@ -43,6 +46,7 @@ p {
     display: block;
     color: white;
     text-align: center;
+    font-size: 13.5pt;
     padding: 10px 12px;
     text-decoration: none;
 }
@@ -111,9 +115,10 @@ p {
     background: #000;
     margin-top: 50pt;
 }
-.footer {
+.footer p{
     text-align: center;
-    color: #ffffff;
+    color: #F5F5F5;
+    display: block;
     margin: auto;
     padding: 20px;
 }
@@ -136,4 +141,25 @@ p {
     .github-corner .octo-arm{
         animation:octocat-wave 560ms ease-in-out
     }
+}
+.fa-heart {
+    color: red
+}
+.fa-bug{
+    color: green;
+}
+.fa-github {
+    color: #FAFAFA;
+}
+.fa-telegram {
+    color: #0088CC;
+}
+.fa-facebook-square {
+    color: #3B5998
+}
+.fa-twitter-square {
+    color: #1DA1F2;
+}
+.fa-linkedin {
+    color: #0077B5;
 }

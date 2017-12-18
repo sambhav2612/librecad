@@ -7,3 +7,7 @@ function myFunction() {
         x.className = "menu";
     }
 } 
+
+function openHomepage() {
+        window.open("https://sambhav2612.github.io/librecad/");
+}
