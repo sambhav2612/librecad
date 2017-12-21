@@ -134,3 +134,23 @@ a {
         animation:octocat-wave 560ms ease-in-out
     }
 }
+.download .box {
+    max-width: 35%;
+    padding-inline-start: 10pt;
+    padding-top: 8pt;
+}
+.box {
+    color: #4CAF50;
+    background: transparent;
+    height: 5.5%;
+    max-height: 10%;
+    display: block;
+    text-align: start;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    background: #f9f9f9;
+    border-radius: 5px;
+    font-size: 13pt;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 1px #333;
+}
