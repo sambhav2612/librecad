@@ -1,5 +1,5 @@
 # librecad
-Static LibreCAD[dot]org Clone using pure HTML, CSS and Javascript.
+Static LibreCAD[dot]org Clone using pure HTML, CSS and Javascript. 
 
 [![NPM](https://nodei.co/npm/librecad.png?compact=true)](https://npmjs.org/package/librecad)  
 [![Build Status](https://travis-ci.org/sambhav2612/librecad.svg?branch=master)](https://travis-ci.org/sambhav2612/librecad)
@@ -7,7 +7,8 @@ Static LibreCAD[dot]org Clone using pure HTML, CSS and Javascript.
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/20a28db2c07b4354960304794edbb21b)](https://www.codacy.com/app/sambhavjain2612/librecad?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sambhav2612/librecad&amp;utm_campaign=Badge_Grade)  
 ![dependencies](https://david-dm.org/sambhav2612/librecad.svg)
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=watch-it-live)](https://sambhav2612.github.io/librecad/)
-[![HitCount](http://hits.dwyl.io/sambhav2612/librecad.svg)](http://hits.dwyl.io/sambhav2612/librecad)
+[![HitCount](http://hits.dwyl.io/sambhav2612/librecad.svg)](http://hits.dwyl.io/sambhav2612/librecad)  
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.png?v=103)](https://opensource.org/licenses/GPL-3.0/)
 
 #### Setting up locally
@@ -24,3 +25,5 @@ $ npm start #no additional packages are required for installation
 - Git
 
 **Note**: It's a good practice to keep all softwares updated, you can update these softwares by following the online documentation frrom their respective sources. 
+
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
