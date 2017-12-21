@@ -13,5 +13,5 @@ function openHomepage() {
 }
 
 function openProfile() {
-    window.open("../profile.html");
+    window.open("profile.html");
 }
