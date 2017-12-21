@@ -26,8 +26,5 @@
   "bugs": {
     "url": "https://github.com/sambhav2612/librecad/issues"
   },
-  "homepage": "https://github.com/sambhav2612/librecad#readme",
-  "dependencies": {
-    "codacy-coverage": "^2.0.3"
-  }
+  "homepage": "https://github.com/sambhav2612/librecad#readme"
 }
