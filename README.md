@@ -1,6 +1,7 @@
 # librecad
 Static LibreCAD[dot]org Clone using pure HTML, CSS and Javascript.
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/59953cb0cdf04382b9cea91cb8343f66)](https://www.codacy.com/app/sambhavjain2612/librecad?utm_source=github.com&utm_medium=referral&utm_content=sambhav2612/librecad&utm_campaign=badger)
 [![NPM](https://nodei.co/npm/librecad.png?compact=true)](https://npmjs.org/package/librecad)
 
 #### Setting up locally
