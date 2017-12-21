@@ -1,0 +1,29 @@
+{
+  "name": "librecad-sambhav2612",
+  "version": "0.1.0",
+  "description": "LibreCAD[dot]org",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambhav2612/librecad.git"
+  },
+  "keywords": [
+    "librecad",
+    "pure-css",
+    "javascript",
+    "html",
+    "static-site"
+  ],
+  "author": "“Sambhav <“sambhavjain2612@gmail.com”> (“sambhav2612.github.io”)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sambhav2612/librecad/issues"
+  },
+  "homepage": "https://github.com/sambhav2612/librecad#readme"
+}
