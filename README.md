@@ -1,7 +1,7 @@
 # librecad
 Static LibreCAD[dot]org Clone using pure HTML, CSS and Javascript.
 
-[![NPM](https://nodei.co/npm/librecad.png?compact=true)](https://npmjs.org/package/librecad)
+[![NPM](https://nodei.co/npm/librecad.png?compact=true)](https://npmjs.org/package/librecad)  
 [![HitCount](http://hits.dwyl.io/sambhav2612/librecad.svg)](http://hits.dwyl.io/sambhav2612/librecad)
 [![BCH compliance](https://bettercodehub.com/edge/badge/sambhav2612/librecad?branch=master)](https://bettercodehub.com/)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/20a28db2c07b4354960304794edbb21b)](https://www.codacy.com/app/sambhavjain2612/librecad?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sambhav2612/librecad&amp;utm_campaign=Badge_Grade)
