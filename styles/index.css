@@ -1,10 +1,11 @@
 h2 {
     color: green;
     font-family: 'Cabin', 'Open Sans', sans-serif;
+    margin-top: 20pt;
 } 
 body {
     background-color: #FFF;
-    max-width: 1000px;
+    max-width: 1135px;
     margin: auto;
     font-family: 'Open Sans', 'Cabin', sans-serif;
 }
@@ -19,7 +20,7 @@ a {
     position: relative;
     margin: 10px;
 }
-#image {
+.image {
     max-width: 100%;
     height: auto;
     align-content: right;
@@ -91,7 +92,7 @@ a {
     margin-inline-start: 20px;
     margin-bottom: 10px;   
     width: 250px;
-    max-width: 100%;
+    max-width: 25%;
     height: auto;
 }
 .topHeader {
@@ -103,8 +104,7 @@ a {
     right: 0px;
     align-content: right;
     display: inline-block;
-    margin-top: 10px;
-    margin-inline-end: 20px;
+    margin-right: 1%;
     height: auto; 
 }
 #header-text {
@@ -116,6 +116,27 @@ a {
 }
 .github-corner:hover .octo-arm{
     animation:octocat-wave 560ms ease-in-out
+}
+.intro {
+    position: relative;
+    clear: both;
+}
+.clion {
+    position: relative;
+}
+.clion-logo {
+    max-width: 12%;
+    max-height: 12%;
+    align-content: left;
+    left: 0px;
+}
+.clion-text {
+    right: 0px;
+    margin-inline-start: 100pt;
+    padding-top: 10pt;
+    position: absolute;
+    align-content: right;
+    display: inline-block;
 }
 @keyframes octocat-wave{
     0%,100%{
