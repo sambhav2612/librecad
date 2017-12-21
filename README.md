@@ -7,7 +7,8 @@ Static LibreCAD[dot]org Clone using pure HTML, CSS and Javascript.
 ```bash
 $ git clone https://github.com/sambhav2612/librecad.git
 $ cd librecad
-$ npm install librecad && npm start
+$ sudo npm install -g librecad 
+$ npm start
 ```
 
 #### Dependencies
