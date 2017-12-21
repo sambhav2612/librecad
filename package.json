@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "vows --spec",
+    "test": "mocha",
     "start": "xdg-open https://sambhav2612.github.io/librecad/"
   },
   "repository": {
@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/sambhav2612/librecad/issues"
   },
-  "homepage": "https://github.com/sambhav2612/librecad#readme"
+  "homepage": "https://github.com/sambhav2612/librecad#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
 }
