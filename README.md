@@ -2,6 +2,8 @@
 Static LibreCAD[dot]org Clone using pure HTML, CSS and Javascript.
 
 [![NPM](https://nodei.co/npm/librecad.png?compact=true)](https://npmjs.org/package/librecad)
+[![HitCount](http://hits.dwyl.io/sambhav2612/librecad.svg)](http://hits.dwyl.io/sambhav2612/librecad)
+[![BCH compliance](https://bettercodehub.com/edge/badge/sambhav2612/librecad?branch=master)](https://bettercodehub.com/)
 
 #### Setting up locally
 ```bash
