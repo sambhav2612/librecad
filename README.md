@@ -1,4 +1,4 @@
 # librecad
 Static LibreCAD[dot]org Clone using pure HTML, CSS and Javascript.
 
-[![npm version](https://badge.fury.io/js/librecad-sambhav2612.svg)](https://badge.fury.io/js/librecad-sambhav2612)
+[![NPM](https://nodei.co/npm/librecad-sambhav2612.png?compact=true)](https://npmjs.org/package/librecad-sambhav2612)
