@@ -1,15 +1,44 @@
 # librecad
 Static LibreCAD[dot]org Clone using pure HTML, CSS and Javascript. 
 
-[![NPM](https://nodei.co/npm/librecad.png?compact=true)](https://npmjs.org/package/librecad)  
-[![Build Status](https://travis-ci.org/sambhav2612/librecad.svg?branch=master)](https://travis-ci.org/sambhav2612/librecad)
-[![BCH compliance](https://bettercodehub.com/edge/badge/sambhav2612/librecad?branch=master)](https://bettercodehub.com/)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/20a28db2c07b4354960304794edbb21b)](https://www.codacy.com/app/sambhavjain2612/librecad?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sambhav2612/librecad&amp;utm_campaign=Badge_Grade)  
-![dependencies](https://david-dm.org/sambhav2612/librecad.svg)
-[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=watch-it-live)](https://sambhav2612.github.io/librecad/)
-[![HitCount](http://hits.dwyl.io/sambhav2612/librecad.svg)](http://hits.dwyl.io/sambhav2612/librecad)  
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![GPL Licence](https://badges.frapsoft.com/os/gpl/gpl.png?v=103)](https://opensource.org/licenses/GPL-3.0/)
+<p align="middle">
+  <a href="https://npmjs.org/package/librecad" target="_blank"> 
+     <img src="https://nodei.co/npm/librecad.png?compact=true" alt="NPM">
+  </a>
+  <br>
+  <a href="https://travis-ci.org/sambhav2612/librecad" target="_blank">
+    <img src="https://travis-ci.org/sambhav2612/librecad.svg?branch=master" alt="Build Status">
+  </a>
+  <a href="https://www.codacy.com/app/sambhavjain2612/librecad?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sambhav2612/librecad&amp;utm_campaign=Badge_Grade" target="_blank">
+    <img src="https://api.codacy.com/project/badge/Grade/20a28db2c07b4354960304794edbb21b" alt="Codacy Badge">
+  </a>
+  <a href="https://bettercodehub.com/sambhav2612/librecad/" target="_blank">
+    <img src="https://bettercodehub.com/edge/badge/sambhav2612/librecad?branch=master" alt="BCH Compliance">
+  </a>
+  <a href="https://david-dm.org/sambhav2612/librecad" target="_blank">
+    <img src="https://david-dm.org/sambhav2612/librecad.svg" alt="dependencies">
+  </a>
+  <br>
+  <a href="https://sambhav2612.github.io/librecad/" target="_blank">
+    <img src="https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=watch-it-live" alt="Website">
+  </a>
+  <a href="http://hits.dwyl.io/sambhav2612/librecad" target="_blank">
+    <img src="http://hits.dwyl.io/sambhav2612/librecad.svg" alt="HitCount">
+  </a>
+  <a href="https://github.com/sambhav2612/librecad/pulls" target="_blank">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome">
+  </a>
+  <a href="https://github.com/sambhav2612/librecad/blob/master/LICENSE" target="_blank">
+    <img src="https://img.shields.io/github/license/sambhav2612/librecad.svg" alt="GitHub License">
+  </a>
+  <br>
+  <a href="http://forthebadge.com" target="_blank">
+    <img src="http://forthebadge.com/images/badges/built-by-developers.svg" alt="forthebadge">
+  </a>
+  <a href="http://forthebadge.com" target="_blank">
+    <img src="http://forthebadge.com/images/badges/built-with-love.svg" alt="forthebadge">
+  </a>
+</p>
 
 #### Setting up locally
 ```bash
@@ -25,5 +54,3 @@ $ npm start #no additional packages are required for installation
 - Git
 
 **Note**: It's a good practice to keep all softwares updated, you can update these softwares by following the online documentation frrom their respective sources. 
-
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
