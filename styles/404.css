@@ -20,8 +20,11 @@
     perspective: 1000px;
     align-content: center;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 	/* flip the pane when hovered */
 	.flip:hover .flipper, .flip.hover .flipper {
@@ -30,7 +33,7 @@
 
 .flip, .front, .back {
 	width: 400px;
-	height: 150px;
+	height: 140px;
 }
 /* flip speed goes here */
 .flipper {
