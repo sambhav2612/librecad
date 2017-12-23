@@ -1,7 +1,7 @@
 {
   "name": "librecad",
-  "version": "0.1.6",
-  "description": "LibreCAD[dot]org",
+  "version": "0.1.7",
+  "description": "LibreCAD[dot]org clone",
   "main": "index.js",
   "directories": {
     "doc": "docs",
