@@ -5,11 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"> 
     <link rel="icon" href="http://wiki.librecad.org/images/6/6d/LibrecadIconHiRes.png">
     <link href="https://fonts.googleapis.com/css?family=Cabin|Open+Sans" rel="stylesheet"> 
-    <link rel="stylesheet" type="text/css" href="../styles/index.css">
-    <link rel="stylesheet" type="text/css" href="../styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <link rel="stylesheet" type="text/css" href="styles/download.css">
+    <link rel="stylesheet" type="text/css" href="styles/footer.css">
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
-    <script type="text/javascript" src="../scripts/main.js"></script>
-    <title>Get in Touch</title> 
+    <script type="text/javascript" src="scripts/main.js"></script>
+    <title>Home to LibreCAD, 2D-CAD</title> 
 </head>
 <body>
         <a href="https://github.com/sambhav2612/librecad/fork" class="github-corner" aria-label="View source on Github">
@@ -30,16 +31,16 @@
                 </div>
                 <div class="menu" id="myTopnav">
                     <ul>
-                        <li><a href="../main.html">Home</a></li>
-                        <li><a href="features.html">Features</a></li>
-                        <li><a href="help.html">Get Help</a></li>
-                        <li><a href="involve.html">Get Involved</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="wiki.html">WIKI</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="installation.html">Installation</a></li>
-                        <li><a href="from-source.html">From Source</a></li>
-                        <li class="active"><a href="contact.html">Get in touch</a></li>
+                        <li class="active"><a href="main.html">Home</a></li>
+                        <li><a href="docs/features.html">Features</a></li>
+                        <li><a href="docs/help.html">Get Help</a></li>
+                        <li><a href="docs/involve.html">Get Involved</a></li>
+                        <li><a href="docs/news.html">News</a></li>
+                        <li><a href="docs/wiki.html">WIKI</a></li>
+                        <li><a href="docs/about.html">About</a></li>
+                        <li><a href="docs/installation.html">Installation</a></li>
+                        <li><a href="docs/from-source.html">From Source</a></li>
+                        <li><a href="docs/contact.html">Get in touch</a></li>
                         <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></li>
                     </ul>   
                 </div>
@@ -47,11 +48,13 @@
         </div>
 	</article>
 	<div class="container">
-		<h2>What is LibreCAD</h2>
-		<p>LibreCAD is a free Open Source CAD application for Windows, Apple and Linux. 
-			Support and documentation is free from our large, dedicated community of users, contributors and developers. You, too, can also get involved!</p>
-        <div class="image">
-            <img src="http://librecad.org/files/live/sites/lc/files/WebImages/HomeBanner/Screen%20shot%202011-05-06%20at%206.44.29%20PM_resize.png">	
+        <h2>What is LibreCAD</h2>
+        <div class="intro">
+            <p>LibreCAD is a free Open Source CAD application for Windows, Apple and Linux. 
+                Support and documentation is free from our large, dedicated community of users, contributors and developers. You, too, can also get involved!</p>
+            <div class="image">
+                <img src="http://librecad.org/files/live/sites/lc/files/WebImages/HomeBanner/Screen%20shot%202011-05-06%20at%206.44.29%20PM_resize.png">	
+            </div>
         </div>
         <h2>Quick Links:</h2>
 		<p>
@@ -59,10 +62,21 @@
 			<br>Our Forum : <a href="http://librecad.org/cms/home/get-help/forum.html">http://librecad.org/cms/home/get-help/forum.html</a>
 			<br>Our Blog : <a href="http://blog.librecad.org/">http://blog.librecad.org/</a>
 			<br>Our Code Repository : <a href="https://github.com/LibreCAD/LibreCAD">https://github.com/LibreCAD/LibreCAD</a>
-			<br>Video Tutorials: <a href="http://www.youtube.com/results?search_query=librecad">http://www.youtube.com/results?search_query=librecad</a> (Big thanks to the tutorial authors)
+			<br>Video Tutorials: <a href="http://www.youtube.com/results?search_query=librecad">http://www.youtube.com/results?search_query=librecad</a> (Big thanks <br>to the tutorial authors)
 		</p>
-		<h2>Friends of LibreCAD</h2>
-		<p>LOGO for BRL-CAD here</p>
+        <div class="download">
+            <h2>Downloads</h2>
+            <div class="box"><i class="fas fa-download"></i> Download LibreCAD for OSX</div>
+            <div class="box"><i class="fas fa-download"></i> Download LibreCAD for Windows</div>
+            <div class="box"><i class="fas fa-download"></i> Linux Installation</div>
+        </div>
+        <h2>Friends of LibreCAD</h2>
+        <p>LOGO for BRL-CAD here</p>
+        <h2>Our Sponsors</h2>
+        <div class="clion">
+            <img class="clion-logo" src="http://confluence.jetbrains.com/download/attachments/54342566/CLion_400x400_Twitter_logo_white.png?version=1&modificationDate=1449748445000&api=v2" alt="CLion Logo">
+            <p class="clion-text">JetBrains have generously supplied us with CLion licenses for the development of LibreCAD. This powerful IDE helps you develop in C and C++ on Linux, OS X and Windows, enhancing your productivity with a smart editor, code quality assurance, automated refactorings, and deep integration with CMake build system.</p>
+        </div>
     </div>
     <div class="bottomHeader">
         <div class="footer">   
@@ -83,9 +97,9 @@
             </span>
             <br><br><span>
                 <a href="" target="_blank">Sitemap</a>
-                | <span>Hosted by <a href="https://pages.github.com" target="_blank"><img id="github-logo" src="../styles/images/github-logo.png"></a></span>
-                | <span>Inline Icons from <a href="https://fontawesome.com/" target="_blank"><i class="fab fa-font-awesome"></i></a></span>
-             </span>
+                 | <span>Hosted by <a href="https://pages.github.com" target="_blank"><img id="github-logo" src="styles/images/github-logo.png"></a></span>
+                 | <span>Inline Icons from <a href="https://fontawesome.com/" target="_blank"><i class="fab fa-font-awesome"></i></a></span>
+                </span>
             </p>
         </div>
     </div>
