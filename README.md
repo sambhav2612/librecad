@@ -1,6 +1,3 @@
-# librecad
-Static LibreCAD[dot]org Clone using pure HTML, CSS and Javascript. 
-
 <p align="middle">
   <img src="styles/images/CLone.jpg" alt="banner">
   <br>
