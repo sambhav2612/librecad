@@ -44,7 +44,7 @@
 $ git clone https://github.com/sambhav2612/librecad.git
 $ cd librecad
 $ npm install #to install mocha
-$ npm start #no additional packages are required for installation
+$ npm start
 ```
 
 #### Dependencies
