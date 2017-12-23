@@ -2,6 +2,8 @@
 Static LibreCAD[dot]org Clone using pure HTML, CSS and Javascript. 
 
 <p align="middle">
+  <img src="styles/images/CLone.jpg" alt="banner">
+  <br>
   <a href="https://npmjs.org/package/librecad" target="_blank"> 
      <img src="https://nodei.co/npm/librecad.png?compact=true" alt="NPM">
   </a>
