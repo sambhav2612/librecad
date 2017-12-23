@@ -1,10 +1,11 @@
 {
   "name": "librecad",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "LibreCAD[dot]org",
   "main": "index.js",
   "directories": {
-    "doc": "docs"
+    "doc": "docs",
+    "test": "test"
   },
   "scripts": {
     "test": "mocha",
@@ -29,5 +30,6 @@
   "homepage": "https://github.com/sambhav2612/librecad#readme",
   "devDependencies": {
     "mocha": "^4.0.1"
-  }
+  },
+  "dependencies": {}
 }
