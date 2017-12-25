@@ -9,11 +9,14 @@ body {
     margin: auto;
     font-family: 'Open Sans', 'Cabin', sans-serif;
 }
-p {
+body a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+body p {
     color: #000;
     font-size: 12.5pt;
 }
-a {
+body a {
     text-decoration: none;
 } 
 .navbar {
