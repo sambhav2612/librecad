@@ -1,11 +1,11 @@
 body {
     background-color: #FFF;
     margin: auto;
-    font-family: 'Open Sans', 'Cabin', sans-serif;
+    font-family: 'Open Sans', 'Roboto', 'Cabin', sans-serif;
 }
 body h2 {
     color: green;
-    font-family: 'Cabin', 'Open Sans', sans-serif;    
+    font-family: 'Cabin', 'Roboto', 'Open Sans', sans-serif;    
     margin-top: 20pt;
     font-size: 25px;
 } 
@@ -20,10 +20,11 @@ body a {
     text-decoration: none;
 } 
 .navbar {
-    font-family: 'Cabin', 'Open Sans', sans-serif;
+    font-family: 'Roboto', 'Cabin', 'Open Sans', sans-serif;
 }
 .navbar .navbar-brand {
     font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
     color: green;
@@ -55,7 +56,7 @@ body a {
 .clion-text {
     margin-top: 20pt;
 }
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 0px) and (max-width: 576px) {
     body p {
         font-size: 12px;
     }

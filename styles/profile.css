@@ -1,34 +1,32 @@
 body {
     max-width: 100%;
 }
-.profile {
-    align-content: center;
-    font-family: 'Cabin', 'Open Sans', sans-serif;
-}
-.profile .profile-image {
-    left: 0;
-    max-width: 50%;
-    height: 50%;
-}
-.profile h1 {
+body h1 {
     text-align: center;
-    font-size: 30pt;
+    color: #333;
+    font-family: 'Roboto mono', monospace;    
+    margin-top: 20pt;
+    font-size: 45px;
+} 
+.card {
+    margin-top: 20pt;
+    text-align: center; 
 }
-.profile p {
-    padding-inline-start: 2%;
-    padding-inline-end: 2%;
-    text-align: center;
-    font-size: 15pt;
+.card-title {
+    color: #333;
+    font-family: 'Cabin', 'Roboto', 'Open Sans', sans-serif;    
 }
-.profile #github-logo {
-    margin-bottom: -10px;
-    max-width: 6.75%;
+.card-text {
+    font-family: 'Roboto', 'Cabin', 'Open Sans', sans-serif;    
 }
-.profile .footer p{
-    text-align: center;
-    color: #F5F5F5;
-    display: block;
-    margin: auto;
-    padding: 20px;
-    font-size: 13.5pt;
+.btn-primary {
+    width: 25%;
+}
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    body h1 {
+        font-size: 25px;
+    }
+    .card {
+        margin-top: 10pt;
+    }
 }
