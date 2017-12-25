@@ -1,6 +1,6 @@
 {
   "name": "librecad",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "LibreCAD[dot]org clone",
   "main": "index.js",
   "directories": {
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "start": "xdg-open https://sambhav2612.github.io/librecad/"
+    "start": "node scripts/app.js"
   },
   "repository": {
     "type": "git",
@@ -33,5 +33,7 @@
   "devDependencies": {
     "mocha": "^4.0.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "open": "^0.0.5"
+  }
 }
