@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">         
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">    
-    <link rel="icon" href="http://wiki.librecad.org/images/6/6d/LibrecadIconHiRes.png">
+    <link rel="icon" href="../styles/images/LibrecadIcon.png">
     <link href="https://fonts.googleapis.com/css?family=Cabin|Open+Sans" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="../styles/index.css">
     <link rel="stylesheet" type="text/css" href="../styles/download.css">
@@ -21,29 +21,29 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="main.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="main.html"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="installation.html">Installation</a>
+                    <a class="nav-link" href="installation.html"><i class="fas fa-download"></i> Installation</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="features.html">Features</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="news.html">News</a>
+                    <a class="nav-link" href="news.html"><i class="fas fa-bullhorn"></i> News</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="about.html">About</a>
-                        <a class="dropdown-item" href="contact.html">Contact</a>
-                        <a class="dropdown-item" href="help.html">Need Help?</a>
+                        <a class="dropdown-item" href="contact.html"><i class="fas fa-address-book"></i> Contact</a>
+                        <a class="dropdown-item" href="help.html"><i class="fas fa-ambulance"></i> Need Help?</a>
                         <a class="dropdown-item" href="involve.html">Get Involved</a>
                         <a class="dropdown-item" href="wiki.html">Read our WIKI</a>
                         <a class="dropdown-item" href="from-source.html">Install from source</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="profile.html">Developer Notes</a>
-                        <a class="dropdown-item" href="credits.html">Website Credits</a>
+                        <a class="dropdown-item" href="credits.html"><i class="fas fa-at"></i> Website Credits</a>
                     </div>
                 </li>   
             </ul>
@@ -54,34 +54,63 @@
         </div>
     </nav>
 	<div class="container">
-        <h2>What is LibreCAD</h2>
-        <div class="intro">
-            <p>LibreCAD is a free Open Source CAD application for Windows, Apple and Linux. 
-                Support and documentation is free from our large, dedicated community of users, contributors and developers. You, too, can also get involved!</p>
-            <div class="image">
-                <img src="http://librecad.org/files/live/sites/lc/files/WebImages/HomeBanner/Screen%20shot%202011-05-06%20at%206.44.29%20PM_resize.png">	
+        <div class="row">
+            <div class="col-md-7">
+                <h2>What is LibreCAD?</h2>
+                <div class="intro">
+                    <p>LibreCAD is a free Open Source CAD application for Windows, Apple and Linux. 
+                        Support and documentation is free from our large, dedicated community of users, contributors and developers. You, too, can also get involved!</p>
+                </div>
+                <h2>Quick Links:</h2>
+        		<p>
+        			Our Wiki: <a href="http://wiki.librecad.org">http://wiki.librecad.org</a>
+        			<br>
+                    Our Forum: <a href="http://librecad.org/cms/home/get-help/forum.html">http://librecad.org/cms/home/get-help/forum.html</a>
+        			<br>
+                    Our Blog: <a href="http://blog.librecad.org/">http://blog.librecad.org/</a>
+        			<br>
+                    Our Code Repository: <a href="https://github.com/LibreCAD/LibreCAD">https://github.com/LibreCAD/LibreCAD</a>
+        			<br>
+                    Video Tutorials: <a href="http://www.youtube.com/results?search_query=librecad">http://www.youtube.com/results?search_query=librecad</a> (Big thanks to the tutorial authors)
+        		</p>
+            </div>
+            <div class="col-md-5">
+                <div class="image">
+                    <img src="../styles/images/resize.png" alt="Screenshot of LibreCAD in working">    
+                </div>
             </div>
         </div>
-        <h2>Quick Links:</h2>
-		<p>
-			Our Wiki : <a href="http://wiki.librecad.org">http://wiki.librecad.org</a>
-			<br>Our Forum : <a href="http://librecad.org/cms/home/get-help/forum.html">http://librecad.org/cms/home/get-help/forum.html</a>
-			<br>Our Blog : <a href="http://blog.librecad.org/">http://blog.librecad.org/</a>
-			<br>Our Code Repository : <a href="https://github.com/LibreCAD/LibreCAD">https://github.com/LibreCAD/LibreCAD</a>
-			<br>Video Tutorials: <a href="http://www.youtube.com/results?search_query=librecad">http://www.youtube.com/results?search_query=librecad</a> (Big thanks <br>to the tutorial authors)
-		</p>
-        <div class="download">
-            <h2>Downloads</h2>
-            <div class="box"><i class="fas fa-download"></i> Download LibreCAD for OSX</div>
-            <div class="box"><i class="fas fa-download"></i> Download LibreCAD for Windows</div>
-            <div class="box"><i class="fas fa-download"></i> Linux Installation</div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Downloads:</h2>
+                <button type="button" class="btn btn-dark" aria-pressed="false"><i class="fas fa-download"></i> Download for OSX</button>
+                <button type="button" class="btn btn-dark" aria-pressed="false"><i class="fas fa-download"></i> Download for Windows</button>
+                <button type="button" class="btn btn-dark" aria-pressed="false"><i class="fas fa-download"></i> Linux Installation</button>
+            </div>
         </div>
-        <h2>Friends of LibreCAD</h2>
-        <p>LOGO for BRL-CAD here</p>
-        <h2>Our Sponsors</h2>
-        <div class="clion">
-            <img class="clion-logo" src="http://confluence.jetbrains.com/download/attachments/54342566/CLion_400x400_Twitter_logo_white.png?version=1&modificationDate=1449748445000&api=v2" alt="CLion Logo">
-            <p class="clion-text">JetBrains have generously supplied us with CLion licenses for the development of LibreCAD. This powerful IDE helps you develop in C and C++ on Linux, OS X and Windows, enhancing your productivity with a smart editor, code quality assurance, automated refactorings, and deep integration with CMake build system.</p>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Friends of LibreCAD</h2>
+                <figure class="figure">
+                    <img class="brlcad-logo" src="../styles/images/logo_color.png" alt="BRL-CAD Logo">
+                    <figcaption class="figure-caption text-center">BRL-CAD</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="sopnsors">Our Sponsors</h2>
+                <div class="clion">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img class="clion-logo" src="../styles/images/CLion.png" alt="CLion Logo">
+                        </div>
+                        <div class="col-md-10">
+                            <p class="clion-text">JetBrains have generously supplied us with CLion licenses for the development of LibreCAD. This powerful IDE helps you develop in C and C++ on Linux, OS X and Windows, enhancing your productivity with a smart editor, code quality assurance, automated refactorings, and deep integration with CMake build system.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="bottomHeader">
@@ -89,21 +118,14 @@
             <p>
             <span><i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by <a href="https://github.com/sambhav2612/" target="_blank" onclick="openProfile()">Sambhav Jain</a></span>
             <br><span>Submit a bug: <a href="https://github.com/sambhav2612/librecad/issues" target="_blank"><i class="fas fa-bug"></i></a></span>
-            <span> | Fork on GitHub: <a href="https://github.com/sambhav2612/librecad/fork" target="_blank"><i class="fab fa-github"></i></a></span>
+            <span> | <a href="https://github.com/sambhav2612/librecad/fork" target="_blank">Fork</a> on GitHub</span>
             <br><span>Wanna Chat?: <a href="https://t.me/SambhavJain"><i class="fab fa-telegram"></i></a>
                   or you can connect via <a href="https://twitter.com/sambhavvjain" target="_blank"><i class="fab fa-twitter-square"></i></a>
                 <a href="https://www.linkedin.com/in/sambhav-jain-88b62b62/" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="https://facebook.com/sambhav2612" target="_blank"><i class="fab fa-facebook-square"></i></a></span>
-            <br><span>Like it? <i class="far fa-thumbs-up"></i> Disliked it? <i class="far fa-thumbs-down"></i> Give your vote: 
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-            </span>
             <br><br><span>
-                <a href="" target="_blank">Sitemap</a>
-                 | <span>Hosted by <a href="https://pages.github.com" target="_blank"><img id="github-logo" src="../styles/images/github-logo.png"></a></span>
+                <a href="sitemap.html" target="_blank">Sitemap</a>
+                 | <span>Hosted by <a href="https://pages.github.com" target="_blank"><i class="fab fa-github"></i></a></span>
                  | <span>Inline Icons from <a href="https://fontawesome.com/" target="_blank"><i class="fab fa-font-awesome"></i></a></span>
                 </span>
             </p>
@@ -114,6 +136,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script>
         $('.dropdown-toggle').dropdown(); 
+        $('.btn-dark').button('toggle')
     </script>
 </body>
 </html>

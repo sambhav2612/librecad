@@ -1,20 +1,20 @@
-.container h2 {
-    color: green;
-    font-family: 'Cabin', 'Open Sans', sans-serif;
-    margin-top: 20pt;
-} 
 body {
-    align-content: center;
     background-color: #FFF;
     margin: auto;
     font-family: 'Open Sans', 'Cabin', sans-serif;
 }
+body h2 {
+    color: green;
+    font-family: 'Cabin', 'Open Sans', sans-serif;    
+    margin-top: 20pt;
+    font-size: 25px;
+} 
 body a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 body p {
     color: #000;
-    font-size: 12.5pt;
+    font-size: 17px;
 }
 body a {
     text-decoration: none;
@@ -24,59 +24,64 @@ body a {
 }
 .navbar .navbar-brand {
     font-size: 30px;
-    color: green;
 }
 .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
     color: green;
 }
-.container {
-    position: relative;
-    margin: 10px;
+.container .col-md-5 {
+    padding-left: 0;
 }
-.image {
+.image img{
+    padding-top: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
     max-width: 100%;
-    height: auto;
-    align-content: right;
-    position: absolute;
-    right: 0px;
-    float: right;
-    display: block;    
+    max-height: 100%;
 }
-.intro {
-    position: relative;
-    clear: both;
+.row .col-md-12 {
+    margin-top: 0pt;
 }
-.clion {
-    position: relative;
+.col-md-12 .brlcad-logo {
+    max-width: 300px;
+    min-width: 300px;    
+}
+.col-md-12 .sponsors {
+    margin-top: 0pt;
 }
 .clion-logo {
-    max-width: 12%;
-    max-height: 12%;
-    align-content: left;
-    left: 0px;
+    max-width: 150px;
+    max-height: 150px;
 }
 .clion-text {
-    right: 0px;
-    margin-inline-start: 100pt;
-    padding-top: 10pt;
-    position: absolute;
-    align-content: right;
-    display: inline-block;
+    margin-top: 20pt;
 }
-@keyframes octocat-wave{
-    0%,100%{
-        transform:rotate(0)
-    }20%,60%{
-        transform:rotate(-25deg)
-    }40%,80%{
-        transform:rotate(10deg)
+@media screen and (max-width: 576px) {
+    body p {
+        font-size: 12px;
     }
-}
-@media (max-width:500px){
-    .github-corner:hover .octo-arm{
-        animation:none
+    body h2 {
+        margin-top: 10pt;
+        font-size: 20px;
+    } 
+    .navbar .navbar-brand {
+        font-size: 25px;
     }
-    .github-corner .octo-arm{
-        animation:octocat-wave 560ms ease-in-out
+    .image img{
+        padding-top: 10px;
+    }
+    .col-md-12 .brlcad-logo {
+        max-width: 200px;
+        min-width: 200px;    
+    }
+    .btn-dark {
+        width: 75%;
+        margin-bottom: 1pt;
+    }
+    .clion-logo {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .clion-text {
+        margin-top: 10pt;
     }
 }
