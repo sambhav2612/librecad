@@ -2,22 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">         
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">    
     <link rel="icon" href="http://wiki.librecad.org/images/6/6d/LibrecadIconHiRes.png">
     <link href="https://fonts.googleapis.com/css?family=Cabin|Open+Sans" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="styles/banner.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha256-m/h/cUDAhf6/iBRixTbuc8+Rg2cIETQtPcH9D3p2Kg0=" crossorigin="anonymous" />
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
     <title>Loading website while you wait...</title> 
 </head>
 <body>
-    <div id="spinner">
-        <h1><i class="fas fa-spinner"></i></h1>
-        <br>
-        <p>Loading website while you wait...</p>
+    <div class="container-fluid" id="spin">
+        <div class="row">
+            <div class="col" id="spinner">
+                <h1><i class="fas fa-spinner"></i></h1>
+            </div>
+        </div>
     </div>
-    <div class="clone">
-        <img src="styles/images/CLone.jpg" alt="Website Banner">
-        <p>Enter Website <a href="main.html" target="_self"><i class="fas fa-angle-double-right"></i></a></p>
+    <div class="container-fluid" id="later">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="styles/images/CLone.jpg" alt="Website Banner">
+            </div>
+            <div class="col-md-12">
+                <p>enter <a href="main.html" target="_self">⌐╦╦═─</a></p>
+            </div>       
+        </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="scripts/banner.js"></script>

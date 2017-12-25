@@ -1,3 +1,3 @@
 $(window).on('load',function() {
-     $('#spinner').fadeOut('3000');
+     $('#spinner').fadeOut('slow');
 });
