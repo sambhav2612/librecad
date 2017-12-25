@@ -20,15 +20,11 @@ body a {
     text-decoration: none;
 } 
 .navbar {
-    z-index: 1;
     font-family: 'Cabin', 'Open Sans', sans-serif;
 }
 .navbar .navbar-brand {
     font-size: 30px;
     color: green;
-}
-.navbar .collapse .navbar-nav .nav-item .nav-link {
-    font-size: 20px;
 }
 .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
     color: green;
@@ -45,12 +41,6 @@ body a {
     right: 0px;
     float: right;
     display: block;    
-}
-.github-corner {
-    z-index: 9999;
-}
-.github-corner:hover .octo-arm{
-    animation:octocat-wave 560ms ease-in-out
 }
 .intro {
     position: relative;
