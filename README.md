@@ -2,7 +2,7 @@
   <img src="styles/images/CLone.jpg" alt="banner">
   <br><br>
   <a href="https://npmjs.org/package/librecad" target="_blank"> 
-     <img src="https://nodei.co/npm/librecad.png?compact=true" alt="NPM">
+     <img src="https://nodei.co/npm/librecad.png" alt="NPM">
   </a>
   <br>
   <a href="https://travis-ci.org/sambhav2612/librecad" target="_blank">
