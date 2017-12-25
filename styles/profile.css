@@ -4,7 +4,7 @@ body {
 body h1 {
     text-align: center;
     color: #333;
-    font-family: 'Roboto mono', monospace;    
+    font-family: 'Roboto Condensed', 'Cabin', 'Roboto', 'Open Sans', sans-serif;    
     margin-top: 20pt;
     font-size: 45px;
 } 

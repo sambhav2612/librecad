@@ -26,6 +26,9 @@ body a {
     font-size: 30px;
     font-family: 'Roboto Condensed', sans-serif;
 }
+.navbar-brand img {
+    width: 150px;
+}
 .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
     color: green;
 }
