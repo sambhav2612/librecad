@@ -4,8 +4,10 @@ body {
     max-height: 100%;
 }
 body a {
-    text-decoration: none;
     color: #0088CC;
+}
+body a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
 }
 .container-fluid {
     padding-top: 5%;

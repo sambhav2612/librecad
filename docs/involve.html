@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">         
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">    
     <link rel="icon" href="http://wiki.librecad.org/images/6/6d/LibrecadIconHiRes.png">
     <link href="https://fonts.googleapis.com/css?family=Cabin|Open+Sans" rel="stylesheet"> 
     <link rel="stylesheet" type="text/css" href="../styles/index.css">
     <link rel="stylesheet" type="text/css" href="../styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha256-m/h/cUDAhf6/iBRixTbuc8+Rg2cIETQtPcH9D3p2Kg0=" crossorigin="anonymous" />
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
-    <script type="text/javascript" src="../scripts/main.js"></script>
     <title>Get Involved</title> 
 </head>
 <body>
@@ -19,33 +19,46 @@
                 <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
             </svg>
         </a>
-	<article>
-        <div class="header">
-            <header>
-                <div class="topHeader">
-                    <img id="logo" onclick="openHomepage()" src="http://wiki.librecad.org/images/3/38/LibrecadLogoGrayHiRes.png" alt="LibreCAD Logo">
-                    <div class="topHeader-text">
-                        <h2 id="header-text">LibreCAD, Open-Source 2D-CAD</h2>
-                    </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="main.html">LibreCAD</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="main.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="installation.html">Installation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="features.html">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">News</a>
+                        </li>
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="about.html">About</a>
+                                <a class="dropdown-item" href="contact.html">Contact</a>
+                                <a class="dropdown-item" href="help.html">Need Help?</a>
+                                <a class="dropdown-item active" href="involve.html">Get Involved</a>
+                                <a class="dropdown-item" href="wiki.html">Read our WIKI</a>
+                                <a class="dropdown-item" href="from-source.html">Install from source</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="profile.html">Developer Notes</a>
+                                <a class="dropdown-item" href="credits.html">Website Credits</a>
+                            </div>
+                        </li>   
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Enter search key" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
                 </div>
-                <div class="menu" id="myTopnav">
-                    <ul>
-                        <li><a href="../main.html">Home</a></li>
-                        <li><a href="features.html">Features</a></li>
-                        <li><a href="help.html">Get Help</a></li>
-                        <li class="active"><a href="involve.html">Get Involved</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="wiki.html">WIKI</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="installation.html">Installation</a></li>
-                        <li><a href="from-source.html">From Source</a></li>
-                        <li><a href="contact.html">Get in touch</a></li>
-                        <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></li>
-                    </ul>   
-                </div>
-            </header>
-        </div>
-	</article>
+            </nav>
 	<div class="container">
 		<h2>What is LibreCAD</h2>
 		<p>LibreCAD is a free Open Source CAD application for Windows, Apple and Linux. 
@@ -89,5 +102,11 @@
             </p>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script>
+        $('.dropdown-toggle').dropdown(); 
+    </script>
 </body>
 </html>
