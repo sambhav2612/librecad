@@ -4,20 +4,20 @@ body {
 body h1 {
     text-align: center;
     color: #333;
-    font-family: 'Roboto Condensed', 'Cabin', 'Roboto', 'Open Sans', sans-serif;    
+    font-family: 'Roboto Condensed', 'Cabin', 'Roboto', 'Open Sans', sans-serif;
     margin-top: 20pt;
     font-size: 45px;
-} 
+}
 .card {
     margin-top: 20pt;
-    text-align: center; 
+    text-align: center;
 }
 .card-title {
     color: #333;
-    font-family: 'Cabin', 'Roboto', 'Open Sans', sans-serif;    
+    font-family: 'Cabin', 'Roboto', 'Open Sans', sans-serif;
 }
 .card-text {
-    font-family: 'Roboto', 'Cabin', 'Open Sans', sans-serif;    
+    font-family: 'Roboto', 'Cabin', 'Open Sans', sans-serif;
 }
 .btn-primary {
     width: 25%;
@@ -27,11 +27,44 @@ blockquote {
     border-left: 10px solid #ccc;
     padding: 0em 10px;
 }
+#sitemap-entries {
+  margin-top: 20px;
+}
+#sitemap-entries-2 {
+  margin-top: 20px;
+}
+#sitemap-entries a {
+  font-family: 'Roboto Mono', monospace;
+}
+#sitemap-entries-2 a {
+  font-family: 'Roboto Mono', monospace;
+}
+#credits {
+  margin-top: 20px;
+}
+#credits .fa-github {
+  color: #000;
+}
+.col-md-2 .fa-font-awesome {
+  color: #000;
+  margin-top: 0px;
+}
+.GitHub-logo {
+  max-width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
 @media screen and (min-width: 0px) and (max-width: 576px) {
     body h1 {
         font-size: 25px;
     }
     .card {
         margin-top: 10pt;
+    }
+    #sitemap-entries {
+      margin-bottom: 0px;
+    }
+    #sitemap-entries-2 {
+      margin-top: 0px;
     }
 }
