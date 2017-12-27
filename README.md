@@ -55,7 +55,9 @@ $ http-server ./
 - open and http-server npm packages
 - Git
 
-**Note**: It's a good practice to keep all softwares updated, you can update these softwares by following the online documentation frrom their respective sources. 
+**Note 1**: These installation commands work only on Linux Distributions as of 27/12/2017.
+
+**Note 2**: It's a good practice to keep all softwares updated, you can update these softwares by following the online documentation frrom their respective sources.
 
 #### Major updates
 1. Commit <a href="https://github.com/sambhav2612/librecad/commit/46f0b656fd5ddddd0d8f5526b43f744379ddc0fa" target="_blank">105</a>: add bootstrap navbar, npm up and banner update for v1.0.1 
