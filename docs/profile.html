@@ -108,5 +108,22 @@
     <script>
         $('.dropdown-toggle').dropdown(); 
     </script>
+    <script>
+            $(document).ready(function () {
+                $(window).on('scroll', function () {
+                    if ($(window).scrollTop() >= 20) {
+                        $('.navbar').css( {
+                            'padding-top': '10px',
+                            'padding-bottom': '10px'
+                        });
+                    } else {
+                        $('.navbar').css( {
+                            'padding-top': '20px',
+                            'padding-bottom': '20px'
+                        });
+                    }
+                });
+            });
+        </script>
 </body>
 </html>
