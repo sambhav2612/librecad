@@ -43,13 +43,16 @@
 ```bash
 $ git clone https://github.com/sambhav2612/librecad.git
 $ cd librecad
-$ npm install #to install mocha
+$ npm install #to install mocha, open and http-server
 $ npm start
+OR
+$ http-server ./
 ```
 
 #### Dependencies
 - NodeJS and NPM (NPM comes with NodeJS by default)
-- Mocha
+- Mocha (for Travis CI Testing)
+- open and http-server npm packages
 - Git
 
 **Note**: It's a good practice to keep all softwares updated, you can update these softwares by following the online documentation frrom their respective sources. 
