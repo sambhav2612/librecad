@@ -1,14 +1,11 @@
 .page {
     text-align: center;
-    font-family: 'Cabin', 'Open Sans', sans-serif;
+    margin-top: 20px;
 }
-.page .footer {
-    max-width: 100%;
-} 
 .flip .page404 {    
     margin: auto;
     margin-top: 20px;
-    font-size: 600%;
+    font-size: 100px;
 }
 .flip .front .fa-smile {
     color: #0088CC;
@@ -18,13 +15,7 @@
 }
 .flip {
     perspective: 1000px;
-    align-content: center;
-    text-align: center;
     margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
 }
 	/* flip the pane when hovered */
 	.flip:hover .flipper, .flip.hover .flipper {
@@ -61,15 +52,29 @@
 	transform: rotateY(180deg);
 }
 .page404p {
+    font-family: 'Roboto Condensed', sans-serif; 
     margin-bottom: 185pt;
-    font-size: 150%;
+    font-size: 25px;
+    line-height: 1.2em;
+    text-align: center;
 }
 body {
     background-color: #FFF;
     max-width: 100%;
     margin: auto;
-    font-family: 'Open Sans', 'Cabin', sans-serif;
 }
 a {
     text-decoration: none;
+}
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    .flip .page404 {
+        font-size: 50px;
+    }
+    .flip, .front, .back {
+        width: 200px;
+        height: 80px;
+    }
+    .page404p {
+        font-size: 12px;
+    }
 }
