@@ -11,8 +11,11 @@
   <a href="https://www.codacy.com/app/sambhavjain2612/librecad?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sambhav2612/librecad&amp;utm_campaign=Badge_Grade" target="_blank">
     <img src="https://api.codacy.com/project/badge/Grade/20a28db2c07b4354960304794edbb21b" alt="Codacy Badge">
   </a>
-  <a href="https://bettercodehub.com/sambhav2612/librecad/" target="_blank">
-    <img src="https://bettercodehub.com/edge/badge/sambhav2612/librecad?branch=master" alt="BCH Compliance">
+  <a href="https://codeclimate.com/github/sambhav2612/librecad/maintainability">
+    <img src="https://api.codeclimate.com/v1/badges/3fcab0a4e4dc5d1d7ea8/maintainability" alt="Code Climate Maintainability">
+  </a>
+  <a href="https://codebeat.co/projects/github-com-sambhav2612-librecad-master">
+    <img alt="codebeat badge" src="https://codebeat.co/badges/c28adf00-eed4-4724-bee1-558ba1ef891f">
   </a>
   <a href="https://david-dm.org/sambhav2612/librecad" target="_blank">
     <img src="https://david-dm.org/sambhav2612/librecad.svg" alt="dependencies">
