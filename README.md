@@ -17,8 +17,12 @@
   <a href="https://codebeat.co/projects/github-com-sambhav2612-librecad-master">
     <img alt="codebeat badge" src="https://codebeat.co/badges/c28adf00-eed4-4724-bee1-558ba1ef891f">
   </a>
+  <br>
   <a href="https://david-dm.org/sambhav2612/librecad" target="_blank">
     <img src="https://david-dm.org/sambhav2612/librecad.svg" alt="dependencies">
+  </a>
+  <a href="https://david-dm.org/sambhav2612/librecad/?type=dev">
+    <img src="https://david-dm.org/sambhav2612/librecad/dev-status.svg" alt="devDependency Status">
   </a>
   <br>
   <a href="https://sambhav2612.github.io/librecad/" target="_blank">
@@ -30,6 +34,7 @@
   <a href="https://github.com/sambhav2612/librecad/pulls" target="_blank">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome">
   </a>
+  <br>
   <a href="https://github.com/sambhav2612/librecad/blob/master/LICENSE" target="_blank">
     <img src="https://img.shields.io/github/license/sambhav2612/librecad.svg" alt="GitHub License">
   </a>
