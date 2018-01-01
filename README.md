@@ -40,9 +40,6 @@
   </a>
   <br>
   <a href="http://forthebadge.com" target="_blank">
-    <img src="http://forthebadge.com/images/badges/built-by-developers.svg" alt="forthebadge">
-  </a>
-  <a href="http://forthebadge.com" target="_blank">
     <img src="http://forthebadge.com/images/badges/built-with-love.svg" alt="forthebadge">
   </a>
 </p>
