@@ -48,10 +48,10 @@
 ```bash
 $ git clone https://github.com/sambhav2612/librecad.git
 $ cd librecad
-$ npm install #to install mocha, open and http-server
-$ npm start
+$ npm install     #to install mocha, open and http-server
+$ npm start       #for live version
 OR
-$ http-server ./
+$ http-server ./  #for local deployment
 ```
 
 #### Dependencies
