@@ -1,16 +1,15 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-body h1, h2 {
-    color: green;
-    font-family: 'Roboto Condensed', sans-serif;    
-    margin-top: 20pt;
-} 
 body h1 {
+    color: green;
+    font-family: 'Montserrat', sans-serif;    
+    margin-top: 20pt;
     font-size: 35px;
-}
+} 
 body h2 {
     color: green;
+    font-family: 'Rubik', sans-serif;    
     margin-top: 20pt;
     font-size: 25px;
 }
@@ -34,7 +33,7 @@ body strong {
 }
 .navbar .navbar-brand {
     font-size: 30px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .navbar-brand img {
     width: 150px;

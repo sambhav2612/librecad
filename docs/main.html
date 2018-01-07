@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8"> 
     <meta name="description" content="The homepage of LibreCAD">
-    <meta name="keywords" content="homepage, librecad, website">
-    <meta name="revised" content="Sambhav Jain, 31/12/2017">
+    <meta name="revised" content="Sambhav Jain, 07/01/2018">
     <meta name="author" content="Sambhav Jain">     
     <meta property="og:title" content="homepage">
     <meta property="og:url" content="https://sambhav2612.github.io/librecad/docs/main.html">
@@ -12,7 +11,7 @@
     <meta property="og:type" content="website"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">    
     <link rel="icon" href="../styles/images/LibrecadIcon.png">
-    <link href="https://fonts.googleapis.com/css?family=Cabin|Open+Sans|Roboto|Roboto+Mono|Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Montserrat|Roboto|Rubik" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../styles/index.css">
     <link rel="stylesheet" type="text/css" href="../styles/download.css">
     <link rel="stylesheet" type="text/css" href="../styles/footer.css">
@@ -21,7 +20,7 @@
     <title>Home to LibreCAD, 2D-CAD</title> 
 </head>
 <body>
-	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="main.html">
             <img src="../styles/images/LibrecadLogoGrayHiRes.png" alt="LibreCAD Logo">
         </a>
@@ -152,22 +151,5 @@
         $('.dropdown-toggle').dropdown(); 
         $('.btn-dark').button('toggle')
     </script>
-    <script>
-            $(document).ready(function () {
-                $(window).on('scroll', function () {
-                    if ($(window).scrollTop() >= 20) {
-                        $('.navbar').css( {
-                            'padding-top': '10px',
-                            'padding-bottom': '10px'
-                        });
-                    } else {
-                        $('.navbar').css( {
-                            'padding-top': '20px',
-                            'padding-bottom': '20px'
-                        });
-                    }
-                });
-            });
-        </script>
 </body>
 </html>

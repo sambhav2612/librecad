@@ -4,7 +4,7 @@ body {
 body h1 {
     text-align: center;
     color: #333;
-    font-family: 'Roboto Condensed', 'Cabin', 'Roboto', 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     margin-top: 20pt;
     font-size: 45px;
 }
@@ -14,10 +14,10 @@ body h1 {
 }
 .card-title {
     color: #333;
-    font-family: 'Cabin', 'Roboto', 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .card-text {
-    font-family: 'Roboto', 'Cabin', 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .btn-primary {
     width: 25%;
@@ -34,10 +34,10 @@ blockquote {
   margin-top: 20px;
 }
 #sitemap-entries a {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 #sitemap-entries-2 a {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 #credits {
   margin-top: 20px;
