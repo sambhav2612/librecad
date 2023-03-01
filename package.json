@@ -31,10 +31,10 @@
   },
   "homepage": "https://github.com/sambhav2612/librecad#readme",
   "devDependencies": {
-    "mocha": "^4.0.1"
+    "mocha": "^10.2.0"
   },
   "dependencies": {
-    "http-server": "^0.10.0",
+    "http-server": "^14.1.1",
     "open": "^0.0.5"
   }
 }
