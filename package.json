@@ -34,7 +34,7 @@
     "mocha": "^4.0.1"
   },
   "dependencies": {
-    "http-server": "^0.10.0",
+    "http-server": "^14.1.1",
     "open": "^0.0.5"
   }
 }
